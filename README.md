@@ -6,9 +6,14 @@ A command-line tool to select default applications. It is a wrapper around [duti
 
 ```shell
 $ go install github.com/tsonglew/dutis@latest
+
+## OR
+
+brew tap tsonglew/dutis
+brew install dutis
 ```
 
-## Usage 
+## Usage
 
 ```shell
 $ dutis
@@ -18,20 +23,20 @@ $ dutis
 
 1. Waiting for environment checking
 
-    ![](./images/env-check.png)
+   ![](./images/env-check.png)
 
 2. Selecting suffix
 
-    ![](./images/choose-suffix.png)
+   ![](./images/choose-suffix.png)
 
 3. Checking recommended applications
 
-    ![](./images/recommend.png)
+   ![](./images/recommend.png)
 
 4. Selecting application UTI
- 
-    ![](./images/choose-uti.png)
+
+   ![](./images/choose-uti.png)
 
 5. Finished
 
-    ![](./images/finish.png)
+   ![](./images/finish.png)
